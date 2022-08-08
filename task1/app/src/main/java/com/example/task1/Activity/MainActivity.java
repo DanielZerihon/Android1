@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(MainActivity.this, "Yes to sing in", Toast.LENGTH_LONG).show();
                         } else {
-                            Toast.makeText(MainActivity.this, "Yes to sing in!!!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, "no to sing in!!!", Toast.LENGTH_LONG).show();
                         }
                     }
                 });
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(MainActivity.this, "Yes to reg", Toast.LENGTH_LONG).show();
                         } else {
-                            Toast.makeText(MainActivity.this, "Yes to reg!!!!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, "no to reg!!!!", Toast.LENGTH_LONG).show();
                         }
                         // ...
                     }
